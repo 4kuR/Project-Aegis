@@ -158,7 +158,7 @@ Thanks to all contributors and users who provide feedback and help improve the P
 
 ## Contact
 
-For questions or support, please contact the maintainer at [your-email@example.com].
+For questions or support, please contact the maintainer at [aku.roininen@gmail.com].
 
 ## Frequently Asked Questions (FAQs)
 

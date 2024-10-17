@@ -83,7 +83,7 @@ To set up the Project Aegis script, follow these steps:
    - Open your terminal and run the following command to clone the repository to your local machine:
      ```bash
      git clone https://github.com/4kuR/ProjectAegis.git
-     cd ProjectAesis
+     cd ProjectAegis
      ```
 
 2. **Make the Script Executable**: 

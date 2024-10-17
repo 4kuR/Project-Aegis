@@ -104,3 +104,73 @@ To run the script, execute the following command in your terminal:
 
 ```bash
 ./ProjectAegis.sh
+```
+
+## Script Functions Overview
+
+The script consists of the following key functions:
+
+- **update_system**: This function manages the system update process by executing necessary commands to update the package list and upgrade installed packages.
+
+- **select_project_directory**: Facilitates the selection of a project directory by listing available directories in the `public_html` folder and allowing user navigation.
+
+- **start_php_server**: This function starts the PHP development server in a new Konsole tab, allowing real-time monitoring of server output.
+
+- **start_npm_process**: Launches npm processes as specified in the project’s `package.json` file in a separate Konsole tab for easy monitoring.
+
+- **log_management**: Handles the creation and management of log files, ensuring that important information is captured for review and debugging.
+
+- **backup_environment**: Backs up current environment variables to a text file in the log directory, allowing users to review the state of the environment at the time the script was executed.
+
+## Example Workflow
+
+1. Open your terminal and run the script using `./ProjectAegis.sh`.
+2. Confirm the system updates when prompted by the script.
+3. Select your project directory from the provided list.
+4. Monitor the PHP and npm processes running in separate Konsole tabs.
+5. Check the log directory for any relevant log files after the script execution.
+
+## Cleanup
+
+To clean up after using the script:
+
+- Manually delete the log directory if it’s no longer needed.
+- Ensure that all Konsole tabs are closed to terminate any orphaned processes.
+- If there were any issues, review the log files for debugging information.
+
+## Contributing
+
+Contributions to Project Aegis are welcome! Please follow these steps to contribute:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with a clear message.
+4. Push your changes to your forked repository.
+5. Submit a pull request with a clear description of your changes.
+
+## License
+
+Project Aegis is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgements
+
+Thanks to all contributors and users who provide feedback and help improve the Project Aegis script. Special thanks to the open-source community for the tools and libraries that make this project possible.
+
+## Contact
+
+For questions or support, please contact the maintainer at [your-email@example.com].
+
+## Frequently Asked Questions (FAQs)
+
+**Q: How do I run the script?**  
+A: Simply execute `./ProjectAegis.sh` in your terminal.
+
+**Q: What if I encounter issues with dependencies?**  
+A: Ensure you follow the prerequisites section and install any missing packages. If issues persist, consult the documentation or seek help from the community.
+
+**Q: Can I customize the script?**  
+A: Yes! Feel free to modify the script as per your requirements, especially the environment variables. Be sure to document any changes you make for future reference.
+
+**Q: Is there a way to revert changes made by the script?**  
+A: The script does not automatically revert changes, but you can review log files and backup information for manual restoration if necessary.
+

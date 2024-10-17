@@ -1,8 +1,8 @@
 <img src="https://i.ibb.co/p41TdmT/mouse.png" alt="mouse" width="800" height="450" style="display: block; margin: auto;">
 
-# Project Aesis
+# Project Aegis
 
-Project Aesis is a powerful Bash script designed to streamline the setup and execution of a PHP server and npm (Node Package Manager) processes. This script facilitates system package updates, project directory selection, and the management of server processes while logging relevant information. It is especially useful for developers working on PHP applications that require a local development server.
+Project Aegis is a powerful Bash script designed to streamline the setup and execution of a PHP server and npm (Node Package Manager) processes. This script facilitates system package updates, project directory selection, and the management of server processes while logging relevant information. It is especially useful for developers working on PHP applications that require a local development server.
 
 ## Table of Contents
 
@@ -77,7 +77,7 @@ Before using the script, ensure you have the following installed on your system:
 
 ## Installation
 
-To set up the Project Aesis script, follow these steps:
+To set up the Project Aegis script, follow these steps:
 
 1. **Clone the Repository**: 
    - Open your terminal and run the following command to clone the repository to your local machine:
@@ -103,4 +103,4 @@ To set up the Project Aesis script, follow these steps:
 To run the script, execute the following command in your terminal:
 
 ```bash
-./ProjectAesis.sh
+./ProjectAegis.sh
